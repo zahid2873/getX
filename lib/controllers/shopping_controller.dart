@@ -14,6 +14,7 @@ class ShoppingController extends GetxController{
 
   void fetchProducts() async {
     await Future.delayed(Duration(seconds: 2));
+    var productResult = [
       Product(
           id: 1,
           price: 30,
